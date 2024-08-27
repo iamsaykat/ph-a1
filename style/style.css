@@ -2,9 +2,10 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
-*{
-    margin: 0;
-    padding: 0;
+
+.container{
+    width: 1440px;
+    margin: 0 auto;
 }
 .hero-container{
     margin: 20px 0 50px 0;
@@ -26,6 +27,9 @@
 .main-title{
     font-size: 72px;
     font-weight: bold;
+}
+.offer-container{
+    margin: 120px 0;
 }
 .offer-info{
     text-align: center;
@@ -49,4 +53,39 @@
     font-weight: bold;
     padding-top: 16px;
     padding-bottom: 48px;
+}
+
+.mid-container{
+    background-image: url(../images/Vectorrr.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 100px;
+}
+.mid-info{
+    width: 600px;
+}
+.mid-title{
+    font-size: 70px;
+    font-family: "Merriweather", system-ui;
+    margin: 0;
+
+}
+.mid-desc{
+    font-size: 18px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+}
+.btn-mid{
+    background-color: rgba(255, 0, 0, 0);
+    border: none;
+    color: white;
+    font-size: 18px;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    padding-top: 20px;
 }
