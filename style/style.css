@@ -65,6 +65,7 @@
     justify-content: space-around;
     align-items: center;
     padding: 100px;
+    margin-bottom: 50px;
 }
 .mid-info{
     width: 600px;
@@ -88,4 +89,124 @@
     font-family: "Inter", sans-serif;
     font-weight: bold;
     padding-top: 20px;
+}
+
+.event-container{
+    background: linear-gradient(180deg, #ff000020, #ff000000);
+    padding: 100px 150px;
+    border-radius: 16px;
+    text-align: center;
+    margin: 30px 0;
+
+}
+
+.event-info{
+    font-family: "Inter", sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    padding-bottom: 50px;
+}
+.event-short-title{
+    color: red;
+}
+.btn{
+    padding: 16px 32px;
+    background-color: red;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    margin-top: 40px;
+}
+
+
+.holiday-desc{
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: #444444;
+    line-height: 32px;
+}
+.cs-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    margin: 150px 0;
+}
+.cs-info-1{
+    width: 420px;
+}
+.cs-info-1 > h2{
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: red;
+}
+.cs-info-1 > h1{
+    font-family: "Merriweather", system-ui;
+    font-size: 48px;
+    font-weight: 700;
+    text-transform: capitalize;
+    line-height: 0;
+}
+
+.cs-img{
+    width: 550px;
+    text-align: center;
+}
+.cs-img img{
+    border: 15px solid red;
+    border-radius: 50%;
+    padding: 20px;
+    
+}
+.cs-info-2{
+    width: 300px;
+}
+.cs-info-2 > h2{
+    font-family: "Inter", sans-serif;
+    font-size: 48px;
+    font-weight: bold;
+    color: red;
+}
+.info-text{
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #444444;
+}
+.cs-info-2 > img{
+    width: 140px;
+}
+.holiday-image{
+    display: flex;
+    justify-content: space-between;
+}
+.holiday-img-2{
+    position: absolute;
+    right: 500px; 
+    /* transform: translate(-50%, -50%); */
+}
+.holiday-img-4{
+    position: absolute;
+    /* bottom: 5px; */
+}
+.holiday-info{
+    text-align: center;
+    padding-bottom: 20px;
+}
+.holiday-top-title{
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.holiday-mid-title{
+    font-family: "Merriweather", system-ui;
+    font-size: 84px;
+    font-weight: 700;
+    text-transform: capitalize;
+    line-height: 0;
 }
