@@ -173,25 +173,15 @@
 }
 .info-text{
     font-family: "Inter", sans-serif;
-    font-size: 20px;
-    font-weight: 400;
+    font-size: 18px;
+    font-weight: 300;
     color: #444444;
 }
 .cs-info-2 > img{
     width: 140px;
 }
-.holiday-image{
-    display: flex;
-    justify-content: space-between;
-}
-.holiday-img-2{
-    position: absolute;
-    right: 500px; 
-    /* transform: translate(-50%, -50%); */
-}
-.holiday-img-4{
-    position: absolute;
-    /* bottom: 5px; */
+.holiday-container{
+    margin: 100px 0;
 }
 .holiday-info{
     text-align: center;
@@ -209,4 +199,79 @@
     font-weight: 700;
     text-transform: capitalize;
     line-height: 0;
+}
+.holiday-image{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+}
+.holiday-img-1{
+    z-index: 1;
+    
+}
+.holiday-img-2{
+    position: absolute;
+    right: 250px; 
+    
+}
+
+.holiday-img-4{
+    position: absolute;
+    bottom: 0;
+    left: 66.5px;
+}
+.subTitle{
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: red;
+}
+.bestgift-info{
+    padding-bottom: 50px;
+}
+.bestgift-title{
+    font-family: "Merriweather", system-ui;
+    font-size: 48px;
+    font-weight: 700;
+    text-transform: capitalize;
+    line-height: 0;
+}
+
+.bestGift-images img{
+    margin-right: 24px;
+    margin-bottom: 24px;
+}
+.subscribe-container {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    padding: 5px;
+    border-radius: 50px;
+}
+
+.email-input {
+    border: none;
+    padding: 10px 15px;
+    border-radius: 50px 0 0 50px;
+    outline: none;
+    font-size: 16px;
+    color: #888888;
+    background-color: pink;
+    
+}
+
+.subscribe-button {
+    background-color: #ff0000;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 0 50px 50px 0;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.subscribe-button:hover {
+    background-color: #cc0000;
 }
